@@ -1,6 +1,6 @@
 'use strict'
 
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, globalShortcut } from 'electron'
 
 /**
  * Set `__static` path to static files in production
@@ -30,6 +30,27 @@ function createWindow () {
   mainWindow.on('closed', () => {
     mainWindow = null
   })
+
+  // mac下快捷键失效的问题
+  if (process.platform === 'darwin') {
+    let contents = mainWindow.webContents
+    globalShortcut.register('CommandOrControl+C', () => {
+      console.log('注册复制快捷键成功')
+      contents.copy()
+    })
+    globalShortcut.register('CommandOrControl+V', () => {
+      console.log('注册粘贴快捷键成功')
+      contents.paste()
+    })
+    globalShortcut.register('CommandOrControl+X', () => {
+      console.log('注册剪切快捷键成功')
+      contents.cut()
+    })
+    globalShortcut.register('CommandOrControl+A', () => {
+      console.log('注册全选快捷键成功')
+      contents.selectAll()
+    })
+  }
 }
 
 app.on('ready', createWindow)
@@ -44,6 +65,45 @@ app.on('activate', () => {
   if (mainWindow === null) {
     createWindow()
   }
+})
+
+app.on('browser-window-focus', () => {
+  // mac下快捷键失效的问题
+  if (process.platform === 'darwin') {
+    let contents = mainWindow.webContents
+    globalShortcut.register('CommandOrControl+C', () => {
+      console.log('注册复制快捷键成功')
+      contents.copy()
+    })
+    globalShortcut.register('CommandOrControl+V', () => {
+      console.log('注册粘贴快捷键成功')
+      contents.paste()
+    })
+    globalShortcut.register('CommandOrControl+X', () => {
+      console.log('注册剪切快捷键成功')
+      contents.cut()
+    })
+    globalShortcut.register('CommandOrControl+A', () => {
+      console.log('注册全选快捷键成功')
+      contents.selectAll()
+    })
+  }
+})
+
+app.on('browser-window-blur', () => {
+  globalShortcut.unregister('CommandOrControl+C')
+  globalShortcut.unregister('CommandOrControl+V')
+  globalShortcut.unregister('CommandOrControl+X')
+  globalShortcut.unregister('CommandOrControl+A')
+  globalShortcut.unregisterAll() // 注销键盘事件
+})
+
+app.on('will-quit', () => {
+  globalShortcut.unregister('CommandOrControl+C')
+  globalShortcut.unregister('CommandOrControl+V')
+  globalShortcut.unregister('CommandOrControl+X')
+  globalShortcut.unregister('CommandOrControl+A')
+  globalShortcut.unregisterAll() // 注销键盘事件
 })
 
 /**
