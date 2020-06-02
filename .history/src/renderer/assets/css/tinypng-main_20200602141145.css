@@ -1,0 +1,1095 @@
+section.upload {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 3.4rem 0 3.7rem;
+}
+
+@media screen and (max-width: 40em) {
+    section.upload {
+        padding-bottom:23.5rem
+    }
+}
+
+@media screen and (max-width: 24em) {
+    section.upload {
+        padding-bottom:30rem
+    }
+}
+
+@media screen and (max-width: 30em) {
+    section.upload {
+        padding-left:1.6rem;
+        padding-right: 1.6rem
+    }
+}
+
+@media print {
+    section.upload {
+        display: none
+    }
+}
+
+section.upload figure.cloud-one {
+    position: absolute;
+    z-index: 1;
+    top: -2.4rem;
+    left: -10%;
+    width: 55.7rem;
+    height: 22.3rem;
+    -webkit-background-size: 55.7rem 22.3rem;
+    -moz-background-size: 55.7rem 22.3rem;
+    background-size: 55.7rem 22.3rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/cloud-left.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    section.upload figure.cloud-one {
+        background-image:url(../img/cloud-left-2x.png)
+    }
+}
+
+section.upload figure.cloud-two {
+    position: absolute;
+    z-index: 2;
+    top: -6.4rem;
+    right: -10%;
+    width: 72.4rem;
+    height: 25.6rem;
+    -webkit-background-size: 72.4rem 25.6rem;
+    -moz-background-size: 72.4rem 25.6rem;
+    background-size: 72.4rem 25.6rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/cloud-right.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    section.upload figure.cloud-two {
+        background-image:url(../img/cloud-right-2x.png)
+    }
+}
+
+section.upload figure.grass {
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    margin-left: -25rem;
+    background-position: bottom center;
+    width: 155.10000000000002rem;
+    height: 2.7rem;
+    -webkit-background-size: 155.10000000000002rem 2.7rem;
+    -moz-background-size: 155.10000000000002rem 2.7rem;
+    background-size: 155.10000000000002rem 2.7rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/grass-confetti.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    section.upload figure.grass {
+        background-image:url(../img/grass-confetti-2x.png)
+    }
+}
+
+@media screen and (max-width: 40em) {
+    section.upload figure.grass {
+        margin-left:-67rem
+    }
+}
+
+header.xmas section.upload figure.grass {
+    width: 138.70000000000002rem;
+    height: 2.2rem;
+    -webkit-background-size: 138.70000000000002rem 2.2rem;
+    -moz-background-size: 138.70000000000002rem 2.2rem;
+    background-size: 138.70000000000002rem 2.2rem;
+    background-repeat: no-repeat;
+    background-image: url(/images/xmas/snow.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    header.xmas section.upload figure.grass {
+        background-image:url(/images/xmas/snow-2x.png)
+    }
+}
+
+section.upload figure.panda {
+    position: absolute;
+    z-index: 7;
+    bottom: 0;
+    left: 25%;
+    margin-left: -24rem;
+    background-position: center bottom,32rem bottom;
+    width: 26.900000000000002rem;
+    height: 25.3rem;
+    -webkit-background-size: 26.900000000000002rem 25.3rem , 26.900000000000002rem 25.3rem;
+    -moz-background-size: 26.900000000000002rem 25.3rem , 26.900000000000002rem 25.3rem;
+    background-size: 26.900000000000002rem 25.3rem , 26.900000000000002rem 25.3rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/panda-chewing.png), url(../img/panda-happy.png);
+}
+
+@media screen and (max-width: 40em) {
+    section.upload figure.panda {
+        margin-left:-12rem
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    section.upload figure.panda {
+        background-image:url(../img/panda-chewing-2x.png), url(../img/panda-happy-2x.png)
+    }
+}
+
+header.xmas section.upload figure.panda {
+    width: 26.900000000000002rem;
+    height: 27.5rem;
+    -webkit-background-size: 26.900000000000002rem 27.5rem , 26.900000000000002rem 27.5rem;
+    -moz-background-size: 26.900000000000002rem 27.5rem , 26.900000000000002rem 27.5rem;
+    background-size: 26.900000000000002rem 27.5rem , 26.900000000000002rem 27.5rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/panda-chewing.png), url(../img/panda-happy.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    header.xmas section.upload figure.panda {
+        background-image:url(../img/panda-chewing-2x.png), url(../img/panda-happy-2x.png)
+    }
+}
+
+section.upload figure.panda.confetti {
+    width: 26.900000000000002rem;
+    height: 27rem;
+    -webkit-background-size: 26.900000000000002rem 27rem , 26.900000000000002rem 27rem;
+    -moz-background-size: 26.900000000000002rem 27rem , 26.900000000000002rem 27rem;
+    background-size: 26.900000000000002rem 27rem , 26.900000000000002rem 27rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/panda-confetti.png), url(../img/panda-happy-confetti.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    section.upload figure.panda.confetti {
+        background-image:url(../img/panda-confetti-2x.png), url(../img/panda-happy-confetti-2x.png)
+    }
+}
+
+section.upload figure.panda.cheering {
+    background-position: 32rem bottom,center bottom
+}
+
+header.confetti section.upload div.celebration {
+    display: none
+}
+
+header.confetti section.upload div.celebration.visible {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 7;
+    display: block;
+    position: absolute;
+    top: 6.5rem;
+    left: 1rem;
+    font-size: 2.4rem;
+    text-align: center;
+    line-height: 4rem;
+    -webkit-animation: pop .5s ease-in-out;
+    -moz-animation: pop .5s ease-in-out;
+    -o-animation: pop .5s ease-in-out;
+    -ms-animation: pop .5s ease-in-out;
+    animation: pop .5s ease-in-out;
+}
+
+@media screen and (max-width: 50em) {
+    header.confetti section.upload div.celebration.visible {
+        display:none
+    }
+}
+
+header.confetti section.upload div.celebration.visible span.count {
+    background: #40444f -webkit-linear-gradient(320deg, #40444f 0%, #858c9c 10%, #40444f 20%, #40444f 75%, #c2c5ce 95%, #40444f 100%) 0 0 no-repeat;
+    background: #40444f -moz-linear-gradient(320deg, #40444f 0%, #858c9c 10%, #40444f 20%, #40444f 75%, #c2c5ce 95%, #40444f 100%) 0 0 no-repeat;
+    background: #40444f -o-linear-gradient(320deg, #40444f 0%, #858c9c 10%, #40444f 20%, #40444f 75%, #c2c5ce 95%, #40444f 100%) 0 0 no-repeat;
+    background: #40444f -ms-linear-gradient(320deg, #40444f 0%, #858c9c 10%, #40444f 20%, #40444f 75%, #c2c5ce 95%, #40444f 100%) 0 0 no-repeat;
+    background: #40444f linear-gradient(130deg, #40444f 0%, #858c9c 10%, #40444f 20%, #40444f 75%, #c2c5ce 95%, #40444f 100%) 0 0 no-repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    color: rgba(0,0,0,0);
+    text-shadow: none;
+    -webkit-animation: shine 5s linear infinite;
+    -moz-animation: shine 5s linear infinite;
+    -o-animation: shine 5s linear infinite;
+    -ms-animation: shine 5s linear infinite;
+    animation: shine 5s linear infinite;
+    display: block;
+    font-size: 4rem;
+    font-weight: bold
+}
+
+section.upload figure.bamboo {
+    position: absolute;
+    z-index: 5;
+    left: 70%;
+    bottom: 0;
+    background-position: bottom center;
+    width: 32rem;
+    height: 100rem;
+    -webkit-background-size: 32rem 100rem;
+    -moz-background-size: 32rem 100rem;
+    background-size: 32rem 100rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/bamboo.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    section.upload figure.bamboo {
+        background-image:url(../img/bamboo-2x.png)
+    }
+}
+
+@media screen and (max-width: 40em) {
+    section.upload figure.bamboo {
+        z-index:3
+    }
+}
+
+header.xmas section.upload figure.bamboo {
+    width: 32rem;
+    height: 100rem;
+    -webkit-background-size: 32rem 100rem;
+    -moz-background-size: 32rem 100rem;
+    background-size: 32rem 100rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/bamboo.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    header.xmas section.upload figure.bamboo {
+        background-image:url(../img/bamboo-2x.png)
+    }
+}
+
+section.upload input[type=file] {
+    position: absolute;
+    top: -16rem;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0)
+}
+
+section.upload section.target {
+    position: relative;
+    z-index: 16;
+    width: 38rem;
+    height: 14rem;
+    margin: 1rem auto;
+    padding: 0 0 1.6rem;
+    color: #40444f;
+    border: .2rem dashed #616778;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    -webkit-transition: color 0.2s ease-out, border-color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out, border-color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out, border-color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out, border-color 0.2s ease-out;
+    transition: color 0.2s ease-out, border-color 0.2s ease-out;
+}
+
+@media screen and (max-width: 30em) {
+    section.upload section.target {
+        border-width:.25rem
+    }
+}
+
+@media screen and (max-width: 40em) {
+    section.upload section.target {
+        width:85%
+    }
+}
+
+@media screen and (max-width: 24em) {
+    section.upload section.target {
+        width:100%
+    }
+}
+
+section.upload section.target:hover {
+    color: #616778;
+    border-color: #9a9fad
+}
+
+section.upload section.target figure.icon {
+    margin: 2.4rem auto .8rem;
+    display: inline-block;
+    width: 6.4rem;
+    height: 5.760000000000001rem;
+    background-position: -11.8rem -22.1rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: 60rem;
+    -moz-background-size: 60rem;
+    background-size: 60rem;
+    background-image: url("../img/sprite.svg");
+    display: block;
+}
+
+html.supported section.upload section.target figure.icon {
+    display: inline-block;
+    width: 6.4rem;
+    height: 5.760000000000001rem;
+    background-position: -1.8rem -12.2rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: 60rem;
+    -moz-background-size: 60rem;
+    background-size: 60rem;
+    background-image: url("../img/sprite.svg");
+    display: block
+}
+
+section.upload section.target p {
+    display: none;
+    margin: 0 .5rem .5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+section.upload section.target p + p {
+    line-height: 1.3rem
+}
+
+section.upload section.target p small {
+    font-weight: normal;
+    font-size: 1.28rem;
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70)
+}
+
+section.upload section.target p.unsupported {
+    display: inherit
+}
+
+html.supported section.upload section.target p {
+    display: inherit;
+}
+
+html.supported section.upload section.target p.unsupported {
+    display: none
+}
+
+@media screen and (max-width: 40em) {
+    section.upload section.target p {
+        font-size:1.6rem
+    }
+}
+
+section.upload section.target.active {
+    border-color: #74b51c
+}
+
+@-moz-keyframes shine {
+    0%,40% {
+        background-position: -70rem
+    }
+
+    100% {
+        background-position: 70rem
+    }
+}
+
+@-webkit-keyframes shine {
+    0%,40% {
+        background-position: -70rem
+    }
+
+    100% {
+        background-position: 70rem
+    }
+}
+
+@-o-keyframes shine {
+    0%,40% {
+        background-position: -70rem
+    }
+
+    100% {
+        background-position: 70rem
+    }
+}
+
+@keyframes shine {
+    0%,40% {
+        background-position: -70rem
+    }
+
+    100% {
+        background-position: 70rem
+    }
+}
+
+@-moz-keyframes pop {
+    0% {
+        opacity: .75;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+        filter: alpha(opacity=75);
+        -webkit-transform: rotate(5deg) scale(.9);
+        -moz-transform: rotate(5deg) scale(.9);
+        -o-transform: rotate(5deg) scale(.9);
+        -ms-transform: rotate(5deg) scale(.9);
+        transform: rotate(5deg) scale(.9)
+    }
+
+    50% {
+        opacity: 1;
+        -ms-filter: none;
+        filter: none;
+        -webkit-transform: rotate(-5deg) scale(1.2);
+        -moz-transform: rotate(-5deg) scale(1.2);
+        -o-transform: rotate(-5deg) scale(1.2);
+        -ms-transform: rotate(-5deg) scale(1.2);
+        transform: rotate(-5deg) scale(1.2)
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        -moz-transform: rotate(0) scale(1);
+        -o-transform: rotate(0) scale(1);
+        -ms-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1)
+    }
+}
+
+@-webkit-keyframes pop {
+    0% {
+        opacity: .75;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+        filter: alpha(opacity=75);
+        -webkit-transform: rotate(5deg) scale(.9);
+        -moz-transform: rotate(5deg) scale(.9);
+        -o-transform: rotate(5deg) scale(.9);
+        -ms-transform: rotate(5deg) scale(.9);
+        transform: rotate(5deg) scale(.9)
+    }
+
+    50% {
+        opacity: 1;
+        -ms-filter: none;
+        filter: none;
+        -webkit-transform: rotate(-5deg) scale(1.2);
+        -moz-transform: rotate(-5deg) scale(1.2);
+        -o-transform: rotate(-5deg) scale(1.2);
+        -ms-transform: rotate(-5deg) scale(1.2);
+        transform: rotate(-5deg) scale(1.2)
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        -moz-transform: rotate(0) scale(1);
+        -o-transform: rotate(0) scale(1);
+        -ms-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1)
+    }
+}
+
+@-o-keyframes pop {
+    0% {
+        opacity: .75;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+        filter: alpha(opacity=75);
+        -webkit-transform: rotate(5deg) scale(.9);
+        -moz-transform: rotate(5deg) scale(.9);
+        -o-transform: rotate(5deg) scale(.9);
+        -ms-transform: rotate(5deg) scale(.9);
+        transform: rotate(5deg) scale(.9)
+    }
+
+    50% {
+        opacity: 1;
+        -ms-filter: none;
+        filter: none;
+        -webkit-transform: rotate(-5deg) scale(1.2);
+        -moz-transform: rotate(-5deg) scale(1.2);
+        -o-transform: rotate(-5deg) scale(1.2);
+        -ms-transform: rotate(-5deg) scale(1.2);
+        transform: rotate(-5deg) scale(1.2)
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        -moz-transform: rotate(0) scale(1);
+        -o-transform: rotate(0) scale(1);
+        -ms-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1)
+    }
+}
+
+@keyframes pop {
+    0% {
+        opacity: .75;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+        filter: alpha(opacity=75);
+        -webkit-transform: rotate(5deg) scale(.9);
+        -moz-transform: rotate(5deg) scale(.9);
+        -o-transform: rotate(5deg) scale(.9);
+        -ms-transform: rotate(5deg) scale(.9);
+        transform: rotate(5deg) scale(.9)
+    }
+
+    50% {
+        opacity: 1;
+        -ms-filter: none;
+        filter: none;
+        -webkit-transform: rotate(-5deg) scale(1.2);
+        -moz-transform: rotate(-5deg) scale(1.2);
+        -o-transform: rotate(-5deg) scale(1.2);
+        -ms-transform: rotate(-5deg) scale(1.2);
+        transform: rotate(-5deg) scale(1.2)
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        -moz-transform: rotate(0) scale(1);
+        -o-transform: rotate(0) scale(1);
+        -ms-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1)
+    }
+}
+
+section.files {
+    display: none;
+    position: relative;
+    z-index: 6;
+    margin: 3.2rem auto 20rem;
+    padding: 1.2rem;
+    border: .1rem solid #bbcbd0;
+    border-radius: .2rem;
+    background-color: #fff;
+    max-width: 96rem;
+}
+
+section.files.started {
+    display: block;
+    -webkit-animation: expandmargin .2s ease-out 0s;
+    -moz-animation: expandmargin .2s ease-out 0s;
+    -o-animation: expandmargin .2s ease-out 0s;
+    -ms-animation: expandmargin .2s ease-out 0s;
+    animation: expandmargin .2s ease-out 0s
+}
+
+section.files > div.large-queue {
+    margin: -1.2rem -1.2rem 1.2rem;
+    padding: 1rem 1.2rem 2rem 1.2rem;
+    text-align: center;
+    background: #f5f9fa;
+}
+
+section.files > div.large-queue > p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 40em) {
+    section.files > div.large-queue > p {
+        width:100%
+    }
+}
+
+section.files > ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.files > ul li {
+    display: block;
+    margin: .4rem;
+    padding: 0 1.28rem;
+    background: #f0f0f0;
+    border: .1rem solid #cfdbde;
+    border-radius: .2rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    color: #363a43;
+}
+
+section.files > ul li:before,section.files > ul li:after {
+    content: "";
+    display: table
+}
+
+section.files > ul li:after {
+    clear: both
+}
+
+section.files > ul li div.before,section.files > ul li div.progress,section.files > ul li div.after {
+    width: 33.33%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+section.files > ul li div.before span.size,section.files > ul li div.after span.size {
+    display: block;
+    width: 5.600000000000001rem;
+    color: #7eb631;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-top: .1rem;
+    text-align: right;
+    line-height: 2.7rem;
+}
+
+@media screen and (max-width: 40em) {
+    section.files > ul li div.before span.size,section.files > ul li div.after span.size {
+        display:none
+    }
+}
+
+section.files > ul li div.before {
+    padding: 0 6.4rem 0 0;
+}
+
+@media screen and (max-width: 40em) {
+    section.files > ul li div.before {
+        padding-right:.8rem
+    }
+}
+
+section.files > ul li div.before span.size {
+    float: right;
+    margin-left: .8rem;
+    margin-right: -5.600000000000001rem
+}
+
+section.files > ul li div.after {
+    padding: 0 0 0 .8rem;
+    text-align: right;
+}
+
+section.files > ul li div.after span.size {
+    float: left;
+    margin-right: .8rem
+}
+
+section.files > ul li div.after a {
+    color: #363a43;
+    text-decoration: underline;
+}
+
+section.files > ul li div.after a.downloaded {
+    color: #858c9c
+}
+
+section.files > ul li div.after span.saved {
+    display: inline-block;
+    margin-left: 1.6rem;
+    width: 4rem
+}
+
+section.files > ul li div.progress {
+    margin: -.1rem;
+    padding: .3rem;
+    border: .1rem solid #cfdbde;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    height: 3rem;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+section.files > ul li div.progress div.bar {
+    min-width: 2.2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    -webkit-box-shadow: rgba(0,0,0,0.08) 0 -.96rem 1.6rem 0 inset;
+    box-shadow: rgba(0,0,0,0.08) 0 -.96rem 1.6rem 0 inset;
+    -webkit-animation: progress 1.5s linear 0s infinite;
+    -moz-animation: progress 1.5s linear 0s infinite;
+    -o-animation: progress 1.5s linear 0s infinite;
+    -ms-animation: progress 1.5s linear 0s infinite;
+    animation: progress 1.5s linear 0s infinite;
+    background: -webkit-linear-gradient(315deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 31%, rgba(0,0,0,0.05) 33%, rgba(0,0,0,0.05) 67%, rgba(0,0,0,0) 69%);
+    background: -moz-linear-gradient(315deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 31%, rgba(0,0,0,0.05) 33%, rgba(0,0,0,0.05) 67%, rgba(0,0,0,0) 69%);
+    background: -o-linear-gradient(315deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 31%, rgba(0,0,0,0.05) 33%, rgba(0,0,0,0.05) 67%, rgba(0,0,0,0) 69%);
+    background: -ms-linear-gradient(315deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 31%, rgba(0,0,0,0.05) 33%, rgba(0,0,0,0.05) 67%, rgba(0,0,0,0) 69%);
+    background: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 31%, rgba(0,0,0,0.05) 33%, rgba(0,0,0,0.05) 67%, rgba(0,0,0,0) 69%);
+    -webkit-background-size: 4.8rem 2.2rem;
+    -moz-background-size: 4.8rem 2.2rem;
+    background-size: 4.8rem 2.2rem;
+}
+
+section.files > ul li div.progress div.bar:after {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: center;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    line-height: 1em
+}
+
+section.files > ul li div.progress.waiting div.bar {
+    width: 100%;
+    background-color: #fff;
+}
+
+section.files > ul li div.progress.waiting div.bar:after {
+    content: "Waiting"
+}
+
+section.files > ul li div.progress.uploading div.bar {
+    background-color: #48d9ea;
+}
+
+section.files > ul li div.progress.uploading div.bar:after {
+    content: "Uploading"
+}
+
+section.files > ul li div.progress.compressing div.bar {
+    width: 100%;
+    background-color: #3ee283;
+}
+
+section.files > ul li div.progress.compressing div.bar:after {
+    content: "Compressing"
+}
+
+section.files > ul li div.progress.success div.bar {
+    width: 100%;
+    background-color: #92ed14;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+    background-image: none;
+}
+
+section.files > ul li div.progress.success div.bar:after {
+    content: "Finished"
+}
+
+section.files > ul li div.progress.error div.bar,section.files > ul li div.progress.limited div.bar {
+    width: 100%;
+    background-color: #f94c00;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+    background-image: none;
+    text-shadow: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    line-height: 2.2rem;
+    font-size: 1.3rem
+}
+
+section.files > ul li:nth-child(n+20) div.waiting div.bar {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+    background-image: none
+}
+
+@-moz-keyframes expandmargin {
+    from {
+        margin-bottom: 0
+    }
+}
+
+@-webkit-keyframes expandmargin {
+    from {
+        margin-bottom: 0
+    }
+}
+
+@-o-keyframes expandmargin {
+    from {
+        margin-bottom: 0
+    }
+}
+
+@keyframes expandmargin {
+    from {
+        margin-bottom: 0
+    }
+}
+
+@-moz-keyframes progress {
+    from {
+        background-position: 0
+    }
+
+    to {
+        background-position: 4.8rem
+    }
+}
+
+@-webkit-keyframes progress {
+    from {
+        background-position: 0
+    }
+
+    to {
+        background-position: 4.8rem
+    }
+}
+
+@-o-keyframes progress {
+    from {
+        background-position: 0
+    }
+
+    to {
+        background-position: 4.8rem
+    }
+}
+
+@keyframes progress {
+    from {
+        background-position: 0
+    }
+
+    to {
+        background-position: 4.8rem
+    }
+}
+
+section.overview div.buttons {
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    right: 0;
+    bottom: 18.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.overview div.buttons div {
+    display: inline-block;
+}
+
+section.overview div.buttons div button.download {
+    background-color: #0aa574;
+    border-bottom-color: #029365;
+    text-shadow: .1rem .1rem 0 #018259;
+}
+
+section.overview div.buttons div button.download:hover {
+    background-color: #02c487;
+    border-bottom-color: #029c6b
+}
+
+section.overview div.buttons div button.download::before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.1rem;
+    height: 1.44rem;
+    background-position: -26.279999999999998rem -26.4rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: 36rem;
+    -moz-background-size: 36rem;
+    background-size: 36rem;
+    background-image: url("../img/sprite.svg")
+}
+
+section.overview div.buttons div button.dropbox {
+    background-color: #1081de;
+    border-bottom-color: #056ec5;
+    text-shadow: .1rem .1rem 0 #0561ae;
+}
+
+section.overview div.buttons div button.dropbox:hover {
+    background-color: #088cf9;
+    border-bottom-color: #0575d1
+}
+
+section.overview div.buttons div button.dropbox::before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.112rem;
+    height: 1.44rem;
+    background-position: -20.16rem -26.4rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: 36rem;
+    -moz-background-size: 36rem;
+    background-size: 36rem;
+    background-image: url("../img/sprite.svg")
+}
+
+section.overview div.buttons div button:disabled,section.overview div.buttons div button:disabled:hover {
+    color: #c0c8cb;
+    background-color: #e6e9ea;
+    border-bottom-color: #c0c8cb;
+    text-shadow: none;
+    cursor: not-allowed
+}
+
+section.overview div.buttons div + div {
+    padding-left: 1.6rem
+}
+
+@media screen and (max-width: 40em) {
+    section.overview div.buttons {
+        bottom:38.5rem
+    }
+}
+
+@media screen and (max-width: 24em) {
+    section.overview div.buttons {
+        bottom:41rem
+    }
+
+    section.overview div.buttons div {
+        display: block;
+        margin: 0 1.6rem;
+        padding-top: .3rem;
+    }
+
+    section.overview div.buttons div button {
+        width: 100%
+    }
+
+    section.overview div.buttons div + div {
+        padding-left: 0;
+        padding-top: .3rem
+    }
+}
+
+section.overview div.box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8rem;
+    width: 32rem;
+    margin: 0 auto;
+    padding: 1.68rem .8rem 1.52rem;
+    color: #505563;
+    background-color: #f0f0f0;
+    border: .1rem solid #bbcbd0;
+    border-radius: .2rem;
+    -webkit-box-shadow: inset .3rem .3rem 0 #fff,inset -.3rem -.3rem 0 #fff;
+    box-shadow: inset .3rem .3rem 0 #fff,inset -.3rem -.3rem 0 #fff;
+}
+
+section.overview div.box div.phrase {
+    float: left;
+    width: 34%;
+    text-align: right;
+    font-family: "OpenSans",sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.7rem;
+    letter-spacing: -.05rem;
+    line-height: 2.1rem
+}
+
+section.overview div.box div.percentage {
+    float: left;
+    width: 35%;
+    margin-right: .4rem;
+    text-align: center;
+    font-family: "OpenSans",sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 4.6rem;
+    letter-spacing: -.2rem;
+    line-height: 4.4rem
+}
+
+section.overview div.box div.bytes {
+    padding-top: 2.2rem;
+    color: #7eb631;
+    font-size: 1.4rem
+}
+
+@media screen and (max-width: 40em) {
+    section.overview div.box {
+        bottom:28rem
+    }
+}
+
+@media screen and (max-width: 24em) {
+    section.overview div.box {
+        bottom:31.2rem;
+        width: auto;
+        margin: 0 1.6rem
+    }
+
+    section.overview div.box div.phrase {
+        width: 50%
+    }
+
+    section.overview div.box div.percentage {
+        width: 48%;
+        margin-right: 0
+    }
+
+    section.overview div.box div.bytes {
+        display: none
+    }
+}
+
+section.overview div.share {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3.5rem;
+    width: 20rem;
+    margin: 0 auto;
+    text-align: right;
+}
+
+section.overview div.share small {
+    font-size: 1.2rem;
+    color: #616778
+}
+
+@media screen and (max-width: 40em) {
+    section.overview div.share {
+        bottom:23.5rem
+    }
+}
+
+@media screen and (max-width: 24em) {
+    section.overview div.share {
+        bottom:26.8rem
+    }
+}
+
+section.overview div.share iframe {
+    z-index: 6;
+    position: relative;
+    display: inline-block;
+    top: 1rem;
+    width: 8rem;
+    height: 2.8rem;
+    margin-left: 1rem;
+    border: none;
+    overflow: hidden;
+}
