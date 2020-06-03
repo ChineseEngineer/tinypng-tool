@@ -20,7 +20,7 @@
   },
   "build": {
     "productName": "tinypng-tools",
-    "appId": "com.example.tinypng",
+    "appId": "com.tinypng.app",
     "directories": {
       "output": "build"
     },

@@ -13,7 +13,6 @@
       <el-button type="primary" @click="onSubmit">更新</el-button>
     </el-form-item>
   </el-form>
-  {{ optimizedDir }}
     <section class="upload">
       <figure class="cloud-one"></figure>
       <figure class="cloud-two"></figure>
@@ -34,23 +33,27 @@
           <i class="el-icon-upload"></i>
           <div class="el-upload__text">Drop your .png or .jpg files here!</div>
         </el-upload>
-        <div class="action-bar" v-if="uploadFiles.length" >
-          <el-button class="reset-btn" @click="rest">重置</el-button>
-          <el-button
-            type="primary" 
-            @click="openFileHandler">
-            打开转换目录
-          </el-button>
-        </div>
         <ul class="upload-files">
-          <li v-for="(item, index) in uploadFiles" :key="index">
-            {{ index + 1 }}. {{ item.name }}
-            <span v-if="!item.status">
+          <li v-for="(item, index) in uploadFiles" :key="index" @click="openFolder(item)">
+            {{ item.name }}
+            <span v-if="item.status === 0">
               Compressing...<i class="el-icon-loading"></i>
             </span>
-            <span v-else class="success">Finished <i class="el-icon-success"></i></span>
+            <span v-else-if="item.status === 2" class="error">
+              error <i class="el-icon-error"></i>
+            </span>
+            <span v-else class="success">Finished
+              <!-- <i class="el-icon-success"></i> -->
+              <i class="el-icon-folder-opened" title="打开文件夹"></i>
+              </span>
           </li>
         </ul>
+        <!-- <el-button
+          v-if="uploadFiles.length"
+          type="primary"
+          @click="openFileHandler">
+          打开转换目录
+        </el-button> -->
       </section>
     </section>
   </div>
@@ -58,13 +61,13 @@
 
 <script>
 // import fs from 'fs'
-import path from 'path'
+// import path from 'path'
 import tinify from 'tinify'
 
 export default {
   data () {
     return {
-      optimizedDir: path.resolve(__dirname, `./optimized/`).replace(/\\/g, '\\\\'),
+      currDir: global.__static,
       formInline: {
         tinifyKey: localStorage.getItem('tinifyKey')
       },
@@ -78,6 +81,10 @@ export default {
     })
   },
   methods: {
+    openFolder (item) {
+      const { shell } = require('electron').remote
+      shell.showItemInFolder(item.path)
+    },
     onSubmit () {
       localStorage.setItem('tinifyKey', this.formInline.tinifyKey)
       this.$message({
@@ -90,14 +97,14 @@ export default {
     },
     openFileHandler () {
       const { shell } = require('electron').remote
-      console.log(`转换目录：${this.optimizedDir}`)
-      shell.showItemInFolder(this.optimizedDir)
+      const resPath = this.currDir
+      shell.showItemInFolder(resPath)
     },
     beforeUpload (file) {
       if (!this.formInline.tinifyKey) return alert('请先设置API key')
       this.uploadFiles.push({
         name: file.name,
-        path: file.path,
+        path: file.path.replace(file.name, ''),
         status: 0
       })
     },
@@ -106,9 +113,15 @@ export default {
       tinify.key = this.formInline.tinifyKey // 设置你的api_key
       const { file } = obj
       const source = tinify.fromFile(file.path)
-      const resPath = `${this.optimizedDir}${file.name}`
+      const resPath = `${file.path.replace(file.name, '')}/tinypng_${file.name}`
       source.toFile(resPath, (err) => {
         if (err) {
+          this.uploadFiles.map(item => {
+            if (item.name === file.name) {
+              item.status = 2
+            }
+            return item
+          })
           return alert(err)
         }
         this.uploadFiles.map(item => {
@@ -192,6 +205,9 @@ export default {
         i {
           margin-left: 5px;
         }
+      }
+      .error {
+        color: #f56c6c;
       }
       .success {
         color: #92ed14;
